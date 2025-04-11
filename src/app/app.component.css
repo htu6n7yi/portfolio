@@ -1,0 +1,13 @@
+
+.first{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.principal{
+  background-image: linear-gradient(to right, #DEEBDB, #C1CFD8, #6C87DB);
+  width: 100%;
+  height: 110%;
+}

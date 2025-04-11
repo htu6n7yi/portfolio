@@ -1,0 +1,44 @@
+
+.card__image{
+  display: flex;
+  flex-direction: row;
+}
+
+.photoCard > img{
+  border: 3px double #8C52FF;
+  width: 250px;
+  border-radius: 20px;
+}
+
+.card__text{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  border-radius: 15px;
+  width: 170px;
+  height: 190px;
+  margin-left: -3rem;
+  margin-top: 160px;
+  padding: 1.5rem;
+  padding-top: 0.5rem;
+  background-color: #CED1F4;
+  color: #8C52FF;
+  font-size: 18px;
+}
+
+.card__text > h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0
+}
+
+li{
+  list-style: none;
+
+}
+
+ul{
+  padding-left: 0;
+  margin-bottom: 3rem;
+}
