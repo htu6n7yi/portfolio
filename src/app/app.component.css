@@ -4,6 +4,11 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  background-image: url('../assets/techn-removebg-preview.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
 }
 
 .principal{
@@ -11,3 +16,18 @@
   width: 100%;
   height: 110%;
 }
+
+.line{
+  max-width: 100%;
+  height: 1px;
+  background-color: #8B3DFF;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+ }
+
+ .second{
+  margin-top: 8vh;
+  padding: 8vh;
+ }

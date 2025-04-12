@@ -2,6 +2,10 @@
 .card__image{
   display: flex;
   flex-direction: row;
+  background-image: url('../../../assets/techn-removebg-preview.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-left: -150px;
 }
 
 .photoCard > img{
@@ -24,6 +28,7 @@
   background-color: #CED1F4;
   color: #8C52FF;
   font-size: 18px;
+  box-shadow: #8C52FF 0px 0px 10px 0px;
 }
 
 .card__text > h3 {
