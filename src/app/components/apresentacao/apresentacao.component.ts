@@ -7,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrl: './apresentacao.component.css'
 })
 export class ApresentacaoComponent {
+  downloadCV(){
+    const pdfUrl = '../../../assets/CV_atualizado.pdf';
+    const pdfName = 'CV_CarlosCavalcanti.pdf';
 
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = pdfName;
+    link.click();
+
+  }
 }

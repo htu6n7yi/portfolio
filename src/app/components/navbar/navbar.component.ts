@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
+  isMenuHidden: boolean = true;
+
+  toggleMenu():void {
+    this.isMenuHidden = !this.isMenuHidden;
+  }
 
 }

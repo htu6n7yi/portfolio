@@ -28,3 +28,10 @@
   border: none;
   margin-top: 2rem;
 }
+
+button:hover{
+  cursor: pointer;
+  background-color: #E9E8EB;
+  color: #8C52FF;
+  transition: all 0.3s ease-in-out;
+}

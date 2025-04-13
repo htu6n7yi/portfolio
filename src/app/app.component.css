@@ -31,3 +31,10 @@
   margin-top: 8vh;
   padding: 8vh;
  }
+
+@media (max-width: 480px) {
+
+  .first{
+  flex-direction: column;
+  }
+}
