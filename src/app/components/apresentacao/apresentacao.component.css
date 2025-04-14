@@ -36,6 +36,10 @@ button:hover{
   transition: all 0.3s ease-in-out;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0d517d94d422fc1ae5a9e34233d7e167b9aed719
 @media (max-width: 480px) {
   .container{
     flex-direction: column;

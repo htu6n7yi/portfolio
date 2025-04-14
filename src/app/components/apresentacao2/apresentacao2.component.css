@@ -47,6 +47,11 @@ ul{
   padding-left: 0;
   margin-bottom: 3rem;
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 0d517d94d422fc1ae5a9e34233d7e167b9aed719
  @media (max-width: 480px) {
   .card__image{
     background-image: url('../../../assets/techn-removebg-preview.png');
