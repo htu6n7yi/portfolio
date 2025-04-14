@@ -8,6 +8,14 @@
   <div class="navbar">
     <a href="https://www.linkedin.com/in/carlos-cavalcanti-/">LinkedIn</a>
     <a href="https://github.com/htu6n7yi">GitHub</a>
+
+    <div class="hamburger" (click)="toggleMenu()">&#9776;</div>
+    <div class="menu" [ngStyle]="{'display': isMenuHidden ? 'none' : 'flex'}">
+      <a href="https://www.linkedin.com/in/carlos-cavalcanti-/">LinkedIn</a>
+      <a href="https://github.com/htu6n7yi">GitHub</a>
+    </div>
+
+
   </div>
 
 </div>
