@@ -47,3 +47,26 @@ ul{
   padding-left: 0;
   margin-bottom: 3rem;
 }
+
+
+ @media (max-width: 480px) {
+  .card__image{
+    background-image: url('../../../assets/techn-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 0;
+  }
+
+  .photoCard > img{
+    width: 82%;
+    margin-left: 1rem;
+  }
+
+  .card__text{
+    width: 40%;
+    height: 233px;
+    margin-right: 2rem;
+    margin-top: 0;
+    padding: 1rem;
+    margin-top: 30%;
+  }}
