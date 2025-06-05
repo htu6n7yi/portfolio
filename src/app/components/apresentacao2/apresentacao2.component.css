@@ -1,7 +1,7 @@
 
 .card__image{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-image: url('../../../assets/techn-removebg-preview.png');
   background-repeat: no-repeat;
   background-position: left;
@@ -19,9 +19,9 @@
   justify-content: left;
   flex-direction: column;
   border-radius: 15px;
-  width: 170px;
-  height: 190px;
-  margin-left: -3rem;
+  width: 80%;
+  height: auto;
+  margin-left: 0;
   margin-top: 160px;
   padding: 1.5rem;
   padding-top: 0.5rem;
@@ -31,21 +31,51 @@
   box-shadow: #8C52FF 0px 0px 10px 0px;
 }
 
+.card__skill{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 0.3rem;
+  min-width: 100%;
+  margin-top: 1rem;
+}
+
+.card__icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 0.3rem;
+}
+
+.card__icons > img {
+  width: 60%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: space-around;
+  justify-content: center;
+}
+
+.card__icons > h5 {
+  font-size: 14px;
+  color: #8C52FF;
+  margin-top: 0;
+
+  text-align: center;
+  width: 100%;
+}
+
+
 .card__text > h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 0
-}
-
-li{
-  list-style: none;
-
-}
-
-ul{
-  padding-left: 0;
-  margin-bottom: 3rem;
 }
 
 
@@ -54,19 +84,60 @@ ul{
     background-image: url('../../../assets/techn-removebg-preview.png');
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .photoCard  {
+    display: flex;
+    justify-content: center;
+
   }
 
   .photoCard > img{
-    width: 82%;
-    margin-left: 1rem;
+    width: 81%;
+    margin-left: 0;
   }
 
   .card__text{
-    width: 40%;
-    height: 233px;
-    margin-right: 2rem;
+    width: 75%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 0;
     padding: 1rem;
-    margin-top: 30%;
+    margin-top: 15%;
+
   }}
+
+  @media (min-width: 1310px){
+    .card__text{
+              width: 31%;
+        margin-left: 22rem;
+        margin-top: -19.5rem;
+    }
+
+    .card__image{
+      margin-left: 10rem;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 1309px){
+    .photoCard{
+      width: 40%;
+      margin-right: 0;
+      margin-left: 2rem;
+    }
+
+    .card__text{
+      width: 45%;
+      margin-top: 0;
+    }
+
+    .card__image{
+      flex-direction: row;
+      margin: 0;
+      margin-top: 3rem;
+      gap: 1rem;
+    }
+  }

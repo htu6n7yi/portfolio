@@ -12,6 +12,7 @@
 .card__description{
   width: 500px;
   color: #8C52FF;
+  padding-left: 3rem;
 }
 
 .card__description > button{
@@ -47,6 +48,8 @@ button:hover{
   .card__description{
     width: 80%;
     text-align: center;
+
+    padding-left: 0;
   }
 
   .card__description > button{

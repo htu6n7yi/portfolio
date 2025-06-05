@@ -38,3 +38,10 @@
   flex-direction: column;
   }
 }
+
+@media (min-width: 481px) and (max-width: 1309px){
+  .first{
+    flex-direction: column;
+    align-items: center;
+  }
+}
